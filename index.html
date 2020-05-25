@@ -36,9 +36,18 @@
         }
 
         .intro {
-            background-image: linear-gradient(360deg, #ffffff 0%, #f0c1bd 83%);
+
+            background-image: linear-gradient(360deg, #ff6699, #ec6dc0, #c77be0, #918bf7, #3399ff);
             color: #fff;
             font-size: 18pt;
+        }
+
+        #title-one{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        #text-principal{
+            font-size: 22pt;
         }
 
         .navbar .navbar-nav .nav-link {
@@ -47,15 +56,17 @@
         }
 
         .navbar {
-            background-color: #f0c1bd;
+            background-color:#3399ff;
         }
 
         a:link {
+            font-family: 'Roboto',sans-serif;
             text-decoration: none;
         }
 
+
         .jumbotron-fluid {
-            background-color: #f0c1bd;
+            background-color: #ff6699;
         }
 
         footer p {
@@ -63,9 +74,9 @@
         }
 
         h1,
-        h6 {
+        h6, h4 {
             font-family: 'Montserrat', sans-serif;
-            color: #d18a84;
+            color: #ff6699;
         }
 
         p {
@@ -77,7 +88,7 @@
         }
 
         .row .col-sm-12 .card {
-            background-color: #f0c1bd;
+            background-color: #ff6699;
         }
     </style>
 </head>
@@ -125,8 +136,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 col-md-6">
-                                <h1 class="mt-1 text-center"> QUEM SOU EU? </h1>
-                                <p class="mb-3"> Educadora financeira que quer transformar o mundo através de
+                                <h1 id="title-one" class="mt-1 text-center"> QUEM SOU EU? </h1>
+                                <p class="mb-3" id="text-principal"> Educadora financeira que quer transformar o mundo através de
                                     informação.
                                     <br>
                                     Meu nome é Juliana Rocha, moradora da Zona Sul de SP, 20 anos, criadora do Canal
@@ -152,18 +163,18 @@
                 <hr class="my-4">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
-                        <div class="card text-white mb-3">
-                            <div class="card-header text-center">
-                                <h6 style="color: white;"> CANAL JUUH ROCHA </h6>
+                        <div class="card text-white bg-light mb-3">
+                            <div class="card-header text-center" style="background-color: #ff6699 ;">
+                                <h4 style="color: white;"> CANAL: JUUH ROCHA </h4>
                             </div>
                             <div class="card-body">
                                 <img src="imagens/canal_ju.png" class="card-img" alt="...">
-                                <p class="card-text mt-3 text-center">Esse é o meu canal, aborda assuntos de finanças
+                              <!--<p id="" class="card-text mt-3 text-center">Esse é o meu canal, aborda assuntos de finanças
                                     pessoais, como
                                     sair das dividas, entrevistas, passo a passo de como investir, renda fixa, renda
-                                    variavel e muitooo mais. Venha conferir! </p>
+                                    variavel e muitooo mais. Venha conferir! </p> -->  
                                 <a href="https://www.youtube.com/channel/UC0BxHsuy2uCPIOA4Z4R6ZmQ" target="blank">
-                                    <button type="button" class="btn btn-light mx-auto d-block"> ACESSE O CANAL E SE
+                                    <button type="button" class="btn mt-3 mx-auto d-block btn-light shadow p-2 mb-2 rounded" style="color: #ff6699; font-weight: bold;"> ACESSE O CANAL E SE
                                         INSCREVA! </button></a>
                             </div>
                         </div>
