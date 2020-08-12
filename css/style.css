@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.intro {
+
+    background-image: linear-gradient(360deg, #ff6699, #ec6dc0, #c77be0, #918bf7, #3399ff);
+    color: #fff;
+    font-size: 18pt;
+}
+
+#title-one{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#text-principal{
+    font-size: 22pt;
+}
+#icon_wpp{
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    z-index: 1;
+}
+section{
+    z-index: 0;
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color:#3399ff;
+}
+
+a:link {
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+}
+
+
+.jumbotron-fluid {
+    background-color: #ff6699;
+}
+
+#youtube .card-body{
+    background-color: white;
+    text-align: center;
+    
+}
+
+#youtube .card-body iframe{
+    padding: 3px;
+}
+
+
+#youtube button{
+    background-color:#ffa1c0;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#youtube button:hover{
+    background-color: #ff6699;
+}
+
+
+#consultoria{
+    margin: 2rem;
+}
+footer p {
+    color: #fff;
+}
+
+h1,
+h6, h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff6699;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row .col-sm-12 .card {
+    background-color: #ff6699;
+}
